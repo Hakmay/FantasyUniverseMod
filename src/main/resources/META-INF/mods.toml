@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[39,)"
+license="All rights reserved"
+[[mods]]
+modId="fantasyuniverse"
+version="${file.jarVersion}"
+displayName="Fantasy Universe"
+logoFile="examplemod.png"
+credits="A mod that add a lot of Fantasy Universe Mobs and Objects"
+authors="Hakmay"
+description='''
+Blabla bla Description
+'''
+[[dependencies.fantasyuniverse]]
+    modId="forge"
+    mandatory=true
+    versionRange="[39,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fantasyuniverse]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.1,1.19)"
+    ordering="NONE"
+    side="BOTH"
